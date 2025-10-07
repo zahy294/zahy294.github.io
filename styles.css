@@ -7,16 +7,16 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(180deg, #1a1b2f, #0d0e1a);
-  color: #e4e4e4;
+  background: linear-gradient(180deg, #f5f5ff, #e0e0ff);
+  color: #2c2c2c;
 }
 
 /* --- HEADER --- */
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background: linear-gradient(90deg, #4b0082, #6a0dad);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(90deg, #b39ddb, #9575cd);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -30,27 +30,27 @@ main {
   max-width: 1000px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #1e1e2f;
+  background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* --- PROFILE SECTION (fixed layout) --- */
+/* --- PROFILE SECTION --- */
 .pic {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  flex-wrap: nowrap; /* keeps image + paragraph in same line */
+  flex-wrap: nowrap;
   margin-bottom: 2rem;
 }
 
 .pic img {
-  height: 280px;
+  height: 250px;
   width: auto;
   border-radius: 10px;
-  border: 2px solid #7b5cff;
-  box-shadow: 0 0 10px rgba(123, 92, 255, 0.3);
+  border: 2px solid #b39ddb;
+  box-shadow: 0 0 10px rgba(179, 157, 219, 0.3);
   transition: transform 0.3s ease;
 }
 
@@ -63,16 +63,16 @@ main {
   font-size: 1rem;
   text-align: justify;
   line-height: 1.8;
-  color: #ddd;
+  color: #4d4d4d;
 }
 
 /* --- HEADINGS --- */
 h2 {
-  color: #7b5cff;
+  color: #7e57c2;
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-left: 4px solid #7b5cff;
+  border-left: 4px solid #7e57c2;
   padding-left: 10px;
   text-transform: uppercase;
 }
@@ -93,31 +93,31 @@ table {
   width: 100%;
   margin-top: 1rem;
   border-collapse: collapse;
-  border: 1px solid #2c2c50;
+  border: 1px solid #ccc;
 }
 
 th, td {
   padding: 1rem;
-  border: 1px solid #7b5cff;
+  border: 1px solid #b39ddb;
   text-align: left;
 }
 
 th {
-  background-color: #7b5cff;
+  background-color: #b39ddb;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 tr:nth-child(even) {
-  background-color: #2a2a3d;
+  background-color: #f2f0ff;
 }
 
 /* --- FOOTER --- */
 footer {
   text-align: center;
   padding: 1.5rem 1rem;
-  background: linear-gradient(90deg, #4b0082, #6a0dad);
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(90deg, #b39ddb, #9575cd);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .social-links a {
@@ -132,14 +132,14 @@ footer {
   transition: all 0.3s ease;
 }
 
-.social-links img:hover {
+.social-links img: hover {
   transform: scale(1.1);
   filter: grayscale(0%);
 }
 
 footer p {
   margin-top: 1rem;
-  color: #eaeaea;
+  color: #f5f5f5;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
