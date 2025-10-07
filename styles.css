@@ -7,15 +7,15 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: linear-gradient(180deg, #f5f5ff, #e0e0ff);
-  color: #2c2c2c;
+  background: linear-gradient(180deg, #f9f9f9, #e0e0e0);
+  color: #263238;
 }
 
 /* --- HEADER --- */
 header {
   text-align: center;
   padding: 2rem 1rem;
-  background: linear-gradient(90deg, #b39ddb, #9575cd);
+  background: linear-gradient(90deg, #607d8b, #455a64);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -32,7 +32,7 @@ main {
   padding: 2rem;
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 /* --- PROFILE SECTION --- */
@@ -41,7 +41,7 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; /* keeps image + paragraph in one line */
   margin-bottom: 2rem;
 }
 
@@ -49,8 +49,8 @@ main {
   height: 250px;
   width: auto;
   border-radius: 10px;
-  border: 2px solid #b39ddb;
-  box-shadow: 0 0 10px rgba(179, 157, 219, 0.3);
+  border: 2px solid #607d8b;
+  box-shadow: 0 0 10px rgba(96, 125, 139, 0.3);
   transition: transform 0.3s ease;
 }
 
@@ -63,16 +63,16 @@ main {
   font-size: 1rem;
   text-align: justify;
   line-height: 1.8;
-  color: #4d4d4d;
+  color: #37474f;
 }
 
 /* --- HEADINGS --- */
 h2 {
-  color: #7e57c2;
+  color: #455a64;
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-left: 4px solid #7e57c2;
+  border-left: 4px solid #607d8b;
   padding-left: 10px;
   text-transform: uppercase;
 }
@@ -93,30 +93,30 @@ table {
   width: 100%;
   margin-top: 1rem;
   border-collapse: collapse;
-  border: 1px solid #ccc;
+  border: 1px solid #cfd8dc;
 }
 
 th, td {
   padding: 1rem;
-  border: 1px solid #b39ddb;
+  border: 1px solid #607d8b;
   text-align: left;
 }
 
 th {
-  background-color: #b39ddb;
+  background-color: #607d8b;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f0ff;
+  background-color: #f0f4f8;
 }
 
 /* --- FOOTER --- */
 footer {
   text-align: center;
   padding: 1.5rem 1rem;
-  background: linear-gradient(90deg, #b39ddb, #9575cd);
+  background: linear-gradient(90deg, #607d8b, #455a64);
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -132,7 +132,7 @@ footer {
   transition: all 0.3s ease;
 }
 
-.social-links img: hover {
+.social-links img:hover {
   transform: scale(1.1);
   filter: grayscale(0%);
 }
